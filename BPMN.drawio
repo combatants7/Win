@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-27T20:23:47.474Z" agent="5.0 (Windows)" etag="iakTCK2-2Agei5EXrvxb" version="13.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-27T20:30:31.201Z" agent="5.0 (Windows)" etag="zON_qwqkGUU9T1rYQfSN" version="13.7.4" type="github">
   <diagram id="HN70raXHhaBrVeVRw2aT" name="Page-1">
     <mxGraphModel dx="1401" dy="1979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="pXvHQ65hjFfUGfcUqaY1-89" value="&lt;div&gt;send completed car &lt;br&gt;&lt;/div&gt;&lt;div&gt;not on time&lt;br&gt;&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="pXvHQ65hjFfUGfcUqaY1-8">
           <mxGeometry x="850" y="90" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pXvHQ65hjFfUGfcUqaY1-92" value="Enjoy driving" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="pXvHQ65hjFfUGfcUqaY1-8">
+        <mxCell id="pXvHQ65hjFfUGfcUqaY1-92" value="Order closed" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="pXvHQ65hjFfUGfcUqaY1-8">
           <mxGeometry x="1020" y="105" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pXvHQ65hjFfUGfcUqaY1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="pXvHQ65hjFfUGfcUqaY1-6" source="pXvHQ65hjFfUGfcUqaY1-44" target="pXvHQ65hjFfUGfcUqaY1-46">
@@ -67,8 +67,14 @@
         <mxCell id="pXvHQ65hjFfUGfcUqaY1-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="pXvHQ65hjFfUGfcUqaY1-6" source="pXvHQ65hjFfUGfcUqaY1-34" target="pXvHQ65hjFfUGfcUqaY1-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="pXvHQ65hjFfUGfcUqaY1-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="pXvHQ65hjFfUGfcUqaY1-6" source="pXvHQ65hjFfUGfcUqaY1-52" target="pXvHQ65hjFfUGfcUqaY1-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pXvHQ65hjFfUGfcUqaY1-52" value="&lt;div&gt;send completed car&lt;/div&gt;&lt;div&gt;on time&lt;br&gt;&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="pXvHQ65hjFfUGfcUqaY1-6">
           <mxGeometry x="760" y="335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXvHQ65hjFfUGfcUqaY1-95" value="&lt;div&gt;Car cant be completed&lt;/div&gt;&lt;div&gt;on time&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="pXvHQ65hjFfUGfcUqaY1-6">
+          <mxGeometry x="365" y="280" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pXvHQ65hjFfUGfcUqaY1-7" value="Car Clerk" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="660" width="1090" height="210" as="geometry" />
