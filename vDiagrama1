@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T20:20:13.186Z" agent="5.0 (Windows)" etag="I3Jwg5vJQy2aabWZa1km" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-19T22:00:39.382Z" agent="5.0 (Windows)" etag="Ie7WdKEgOSCsSdwcso5h" version="14.0.0" type="github">
   <diagram id="-CXu6N2kGGvxjLWMCBqx" name="Page-1">
     <mxGraphModel dx="2243" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-4" value="Užsakymo koregavimas" style="swimlane;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-130" y="50" width="850" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="0RjciWhqwiLCuQ2S4gEh-6" value="Klientas arba Pardavėjas" style="swimlane;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-4">
+        <mxCell id="0RjciWhqwiLCuQ2S4gEh-6" value="Sistema" style="swimlane;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-4">
           <mxGeometry y="20" width="400" height="550" as="geometry" />
         </mxCell>
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="0RjciWhqwiLCuQ2S4gEh-6" source="0RjciWhqwiLCuQ2S4gEh-7" target="0RjciWhqwiLCuQ2S4gEh-9">
@@ -16,17 +16,8 @@
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-7" value="" style="ellipse;fillColor=#000000;strokeColor=none;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-6">
           <mxGeometry x="30" y="40" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0RjciWhqwiLCuQ2S4gEh-9" value="Nori pakeisti savo užsakymą" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-6">
-          <mxGeometry x="30" y="110" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0RjciWhqwiLCuQ2S4gEh-16" value="Kreipiasi į administratorių" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-6">
-          <mxGeometry x="220" y="200" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0RjciWhqwiLCuQ2S4gEh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0RjciWhqwiLCuQ2S4gEh-6" source="0RjciWhqwiLCuQ2S4gEh-9" target="0RjciWhqwiLCuQ2S4gEh-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="60" as="sourcePoint" />
-            <mxPoint x="230" y="135" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="0RjciWhqwiLCuQ2S4gEh-9" value="Atsiranda prašymas užsakymui koreguoti" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-6">
+          <mxGeometry x="30" y="110" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="0RjciWhqwiLCuQ2S4gEh-6" source="0RjciWhqwiLCuQ2S4gEh-34" target="0RjciWhqwiLCuQ2S4gEh-36">
           <mxGeometry relative="1" as="geometry" />
@@ -42,17 +33,6 @@
         </mxCell>
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-18" value="Administratorius patikrina užsakymo būsena" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-4">
           <mxGeometry x="540" y="60" width="165" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="0RjciWhqwiLCuQ2S4gEh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0RjciWhqwiLCuQ2S4gEh-4" source="0RjciWhqwiLCuQ2S4gEh-16" target="0RjciWhqwiLCuQ2S4gEh-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="220" as="sourcePoint" />
-            <mxPoint x="300" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="430" y="255" />
-              <mxPoint x="430" y="130" />
-              <mxPoint x="540" y="130" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="0RjciWhqwiLCuQ2S4gEh-4" source="0RjciWhqwiLCuQ2S4gEh-21" target="0RjciWhqwiLCuQ2S4gEh-25">
           <mxGeometry relative="1" as="geometry">
@@ -94,6 +74,12 @@
         </mxCell>
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=18;" vertex="1" parent="0RjciWhqwiLCuQ2S4gEh-4">
           <mxGeometry x="735" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0RjciWhqwiLCuQ2S4gEh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0RjciWhqwiLCuQ2S4gEh-4" source="0RjciWhqwiLCuQ2S4gEh-9" target="0RjciWhqwiLCuQ2S4gEh-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="80" as="sourcePoint" />
+            <mxPoint x="220" y="245" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0RjciWhqwiLCuQ2S4gEh-5" value="Administratorius" style="swimlane;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="270" y="70" width="450" height="550" as="geometry" />
