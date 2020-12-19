@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T20:40:24.891Z" agent="5.0 (Windows)" version="14.0.0" etag="ZQkI_kXrbalaB7KQ0FZ1" type="github"><diagram id="eAS4137w9IQZTpIWh7LL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-19T20:58:27.052Z" agent="5.0 (Windows)" etag="eqrcICcbr_ZRWKVnvP1S" version="14.0.0" type="github">
+  <diagram id="eAS4137w9IQZTpIWh7LL" name="Page-1">
+    <mxGraphModel dx="1204" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-1" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-20" width="560" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-2" value="Container" style="swimlane;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry y="20" width="270" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-2" source="rkipqDcIe4aUYlV3TLVe-6" target="rkipqDcIe4aUYlV3TLVe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-6" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-2">
+          <mxGeometry x="50" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-2" source="rkipqDcIe4aUYlV3TLVe-7" target="rkipqDcIe4aUYlV3TLVe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-7" value="Užsakymas patvirtintas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-2">
+          <mxGeometry x="50" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-2">
+          <mxGeometry x="50" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-15" target="rkipqDcIe4aUYlV3TLVe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-15" value="Gaunama užsakymo informacija" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="360" y="135" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-18" target="rkipqDcIe4aUYlV3TLVe-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-18" value="Užsakymo būsena atnaujinama į vykdoma" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="420" y="400" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-25" target="rkipqDcIe4aUYlV3TLVe-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-25" value="&lt;div&gt;(Pradedama)&lt;/div&gt;&lt;div&gt;Automobilio gamyba&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="360" y="215" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-26" target="rkipqDcIe4aUYlV3TLVe-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-26" target="rkipqDcIe4aUYlV3TLVe-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-26" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="400" y="295" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-29" value="TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="480" y="355" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-33" target="rkipqDcIe4aUYlV3TLVe-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-33" value="Užsakyme įsivėlė klaida automobilis negali būti pagamintas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="280" y="400" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-35" value="FALSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="295" y="355" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-36" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-1">
+          <mxGeometry x="400" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rkipqDcIe4aUYlV3TLVe-1" source="rkipqDcIe4aUYlV3TLVe-7" target="rkipqDcIe4aUYlV3TLVe-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-3" value="Automobilio gamyba" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-20" width="560" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-4" value="Sistema" style="swimlane;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-3">
+          <mxGeometry y="20" width="270" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="rkipqDcIe4aUYlV3TLVe-5" value="Automobilio gamyba" style="swimlane;" vertex="1" parent="rkipqDcIe4aUYlV3TLVe-3">
+          <mxGeometry x="270" y="20" width="290" height="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
